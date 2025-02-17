@@ -7,8 +7,8 @@ function RepetitionExercise({ name }) {
         <div>
             <h2>{name}</h2>
             <p>Repetitions: {count}</p>
-            <button onClick={() => setCount(count + 1)}>Increase</button>
-            <button onClick={() => setCount(0)}>Reset</button>
+            <button className="buttons" onClick={() => setCount(count + 1)}>Increase</button>
+            <button className="buttons" onClick={() => setCount(0)}>Reset</button>
         </div>
     );
 }

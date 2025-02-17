@@ -28,8 +28,8 @@ function DurationExercise({ name }) {
         <div>
             <h2>{name}</h2>
             <p>Time: {formatTime(time)}</p>
-            <button onClick={() => setIsRunning(true)}>Start</button>
-            <button onClick={() => { setIsRunning(false); setTime(0); }}>Reset</button>
+            <button className="buttons" onClick={() => setIsRunning(true)}>Start</button>
+            <button className="buttons" onClick={() => { setIsRunning(false); setTime(0); }}>Reset</button>
         </div>
     );
 }

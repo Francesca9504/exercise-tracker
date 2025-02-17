@@ -5,8 +5,15 @@
 .header {
   text-align: center;
   font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.buttons {
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 10px;
+
+}
 
 .exercise-button {
   background-color: rgb(59, 137, 232);
@@ -37,8 +44,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
