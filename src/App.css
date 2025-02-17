@@ -2,15 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  text-align: center;
+  font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.exercise-button {
+  background-color: rgb(59, 137, 232);
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 13px;
+  border-radius: 10px;
+}
+
+
+.exercise-button:hover {
+  background-color: #5b5bdc;
+}
+
+.button-container {
+  text-align: center;
 }
 
 .App-header {
@@ -26,13 +41,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
